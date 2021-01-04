@@ -5,6 +5,10 @@
 The sale prediction models implement various machine learning tools to classify the WholeSale data base and make prediction for future inventory
 . The goal is forcus on performing cluster analyst on an inventory of a whole sale database (data was just a small sample) that data scientist can draw hypothesis from there. The full research paper can be found[ here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf)
 
+![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/1.PNG)
+
+Hypothesis from plot. In the plot, we can easily see people who come to buy grocery have a 100% change to buy detergent paper (and vice versa); or People who buy detergent paper will have a change of 75% to 90% to buy milk (and vice versa)... Combine the plotting and statistic together will easily helping business to make correct decision.
+
 ### Technology
 * Business Analyst
 * Machine Learning
@@ -65,6 +69,9 @@ WholesaleData <- read.csv("~/R/DataMining/WholeSale/data/WholesaleCustomersData.
 - Please take a quick view of [import data in R](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio?mobile_site=true) if you fail to change the import code.
 
 ### Data Visualization:
+
+Using cluster analysis, we can find out potential customers' interest. Based on that group we can figure out what is our incoming inventory should be. 
+![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/2.PNG)
 
 
 ## Deployment
