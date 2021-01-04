@@ -71,7 +71,8 @@ WholesaleData <- read.csv("~/R/DataMining/WholeSale/data/WholesaleCustomersData.
 
 ### Data Visualization:
 
-Using cluster analysis, we can find out potential customers' interest. Based on that group we can figure out what is our incoming inventories should be. 
+Using cluster analysis, we can find out potential customers' interest. Based on that group we can figure out what is our incoming inventories should be.
+
 ![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/2.PNG)
 
 
