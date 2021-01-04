@@ -3,8 +3,7 @@
 
 ## Introduction
 The sale prediction models implement various machine learning tools to classify the WholeSale data base and make prediction for future inventory
-. The goal is forcus on performing cluster analyst on an inventory of a whole sale database (data was just a small sample) that data scientist can draw hypothesis from there.
-[Full research paper can be found here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf)
+. The goal is forcus on performing cluster analyst on an inventory of a whole sale database (data was just a small sample) that data scientist can draw hypothesis from there. The full research paper can be found[ here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf)
 
 ### Technology
 * Business Analyst
@@ -13,8 +12,8 @@ The sale prediction models implement various machine learning tools to classify 
 * Data Visualization
 
 ### Algorithm & Methods
-* Data Exploration: Explore min, max, mean, standard deviation, correlation, and else using describe function.
-* Data Transformation: There is a lot of variation in the magnitude of the original data (org_data). To bring all the features to the same magnitude, standardize the features.
+* Data Exploration: Explore min, max, mean, standard deviation, correlation, and else using describe function
+* Data Transformation: There is a lot of variation in the magnitude of the original data (org_data). To bring all the features to the same magnitude, standardize the features
 * Principal Component Analysis (PCA)
 * Eigen Vector
 * Hopskin Statistic
@@ -25,21 +24,21 @@ The sale prediction models implement various machine learning tools to classify 
 * Density-based clustering 
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system
 
 ### Data
-Please download data at [kaggle](https://www.kaggle.com/truchuynh87/wholesalecustomersdata) first.
+Please download data at [kaggle.com](https://www.kaggle.com/truchuynh87/wholesalecustomersdata) first
 
 ### Prerequisites
 What things you need to install the software and how to install them
-- R CRAN Project: R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.
-- RStudio IDE: RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. Click here to see more RStudio features. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server or RStudio Server Pro (Debian/Ubuntu, Red Hat/CentOS, and SUSE Linux).
+- R CRAN Project: R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS
+- RStudio IDE: RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. Click here to see more RStudio features. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server or RStudio Server Pro (Debian/Ubuntu, Red Hat/CentOS, and SUSE Linux)
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development enviroment running
-* [Install R](https://www.r-project.org/) - If you haven't downloaded and installed R, here's how to get started.
-* [R Studio IDE](https://rstudio.com/products/rstudio/#:~:text=RStudio%20Take%20control%20of%20your%20R%20code%20RStudio,tools%20for%20plotting,%20history,%20debugging%20and%20workspace%20management.) - After that choose R Studio Desktop, and the free version (unless you have the Pro install). R free version is pretty good IDE.
+* [Install R](https://www.r-project.org/) - If you haven't downloaded and installed R, here's how to get started
+* [R Studio IDE](https://rstudio.com/products/rstudio/#:~:text=RStudio%20Take%20control%20of%20your%20R%20code%20RStudio,tools%20for%20plotting,%20history,%20debugging%20and%20workspace%20management.) - After that choose R Studio Desktop, and the free version (unless you have the Pro install). R free version is pretty good IDE
 
 
 ## Running the tests
@@ -72,11 +71,14 @@ WholesaleData <- read.csv("~/R/DataMining/WholeSale/data/WholesaleCustomersData.
 Please note the application will work with any bigger or smaller data set. As long as it follow the design pattern of this data set. Which mean the two nominal attributes must stay at the same names. 
 - (7) CHANNEL: customers Channel — Horeca (Hotel/Restaurant/Caf??) or Retail channel (Nominal) 
 - (8) REGION: customers Region of Lisbon, Oporto or Other (Nominal)
-More continous attributes can just be add to the application, and it should work fine. Please refer to my research paper for better understanding. [Full research paper can be found here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf)
-I will not guarantee that this will work Big data set. If you are interested please join here for [an argue](https://www.researchgate.net/post/How-much-data-is-considered-to-be-small-data-Large-data-in-data-mining) on what data set is consider a large data set in data mining.
+More continous attributes can just be add to the application, and it should work fine. Please refer to my research paper for better understanding. [Full research paper can be found here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf).
+
+I will not guarantee that this aplication will work Big data set. If you are interested please join here for [an argue](https://www.researchgate.net/post/How-much-data-is-considered-to-be-small-data-Large-data-in-data-mining) on what data set is consider a large data set in data mining.
+
 ## Built With
 
-* [Jupyter Notebook](https://jupyter.org/try) 
+* [R Studio IDE](https://rstudio.com/products/rstudio/#:~:text=RStudio%20Take%20control%20of%20your%20R%20code%20RStudio,tools%20for%20plotting,%20history,%20debugging%20and%20workspace%20management.) 
+* [R CRAN Project](https://www.r-project.org/)
 
 ## Contributing
 
@@ -90,10 +92,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
 
-## Format
+## References
 my README.md format was retrieved from
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Purdue FortWayne University** - *Dataset* - Dataset was provide by Purdue FortWayne University CIS Department, and upload to kaggle.com by me.
 
 ## License
 
