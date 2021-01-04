@@ -7,7 +7,7 @@ The sale prediction models implement various machine learning tools to classify 
 
 ![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/1.PNG)
 
-Hypothesis from plot. In the plot, we can easily see people who come to buy grocery have a 100% change to buy detergent paper (and vice versa); or People who buy detergent paper will have a change of 75% to 90% to buy milk (and vice versa)... Combine the plotting and statistic together will easily helping business to make correct decision.
+Hypothesis from plot. According to the plot, we can easily see people who buy grocery have a 100% change to buy detergent paper (and vice versa); or people who buy detergent paper will have a change of 75% to 90% to buy milk (and vice versa)... Combine the plotting and statistic together will help business to make correct decision. Please click [here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf) for the full statistic and prediction. 
 
 ### Technology
 * Business Analyst
@@ -53,9 +53,10 @@ Explain how to run the automated tests for this system:
 - Copy the data and markdown file (.rmd) into the source file. For examaple:
 ```
 ~/salePredictionSystem/markdown.rmd
+~/salePredictionSystem/WholesaleCustomersData.csv
 ```
 
-- you can store the WholesaleCustomersData.csv in the same folder, but it is recommeded. to store in as below for coding standard:
+- you can store the WholesaleCustomersData.csv in the same folder, but it is recommeded to store in a data as below (coding standard):
 ```
 ~/salePredictionSystem/data/WholesaleCustomersData.csv
 ```
@@ -70,7 +71,7 @@ WholesaleData <- read.csv("~/R/DataMining/WholeSale/data/WholesaleCustomersData.
 
 ### Data Visualization:
 
-Using cluster analysis, we can find out potential customers' interest. Based on that group we can figure out what is our incoming inventory should be. 
+Using cluster analysis, we can find out potential customers' interest. Based on that group we can figure out what is our incoming inventories should be. 
 ![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/2.PNG)
 
 
@@ -80,7 +81,7 @@ Please note the application will work with any bigger or smaller data set. As lo
 - (8) REGION: customers Region of Lisbon, Oporto or Other (Nominal)
 More continous attributes can just be add to the application, and it should work fine. Please refer to my research paper for better understanding. [Full research paper can be found here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf).
 
-I will not guarantee that this aplication will work Big data set. If you are interested please join here for [an argue](https://www.researchgate.net/post/How-much-data-is-considered-to-be-small-data-Large-data-in-data-mining) on what data set is consider a large data set in data mining.
+I will not guarantee that this aplication will work "Big data set". If you are interested in "Big(or Large) data set" please join here for [an argue](https://www.researchgate.net/post/How-much-data-is-considered-to-be-small-data-Large-data-in-data-mining) on what data set is consider a large data set in data mining.
 
 ## Built With
 
