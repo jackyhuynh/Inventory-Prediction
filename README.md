@@ -77,7 +77,7 @@ Using cluster analysis, we can find out potential customers' interest. Based on 
 
 
 ## Deployment
-Please note the application will work with any bigger or smaller data set. As long as it follow the design pattern of this data set. Which mean the two nominal attributes must stay at the same names. 
+This can be deployed to any data base system for inventory prediction. Please note the application will work with any bigger or smaller data set as long as it follow the design pattern of this data set. Which mean the two nominal attributes must stay at the same names. 
 - (7) CHANNEL: customers Channel — Horeca (Hotel/Restaurant/Caf??) or Retail channel (Nominal) 
 - (8) REGION: customers Region of Lisbon, Oporto or Other (Nominal)
 More continous attributes can just be add to the application, and it should work fine. Please refer to my research paper for better understanding. [Full research paper can be found here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf).
