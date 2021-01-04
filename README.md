@@ -3,7 +3,7 @@
 
 ## Introduction
 The sale prediction models implement various machine learning tools to classify the WholeSale data base and make prediction for future inventory
-. The goal is forcus on performing cluster analyst on an inventory of a whole sale database (data was just a small sample) that data scientist can draw hypothesis from there. The full research paper can be found[ here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf)
+. The goal is forcus on performing cluster analyst on an inventory of a whole sale database (data was just a small sample) that data scientist can draw hypothesis from there. The full research paper can be found[ here](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/Markdown-WholeSale.pdf).
 
 ![alt](https://github.com/jackyhuynh/salePredictionModels-dataMining/blob/main/src/picture/1.PNG)
 
@@ -28,28 +28,28 @@ Hypothesis from plot. According to the plot, we can easily see people who buy gr
 * Density-based clustering 
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Data
-Please download data at [kaggle.com](https://www.kaggle.com/truchuynh87/wholesalecustomersdata) first
+Please download data at [kaggle.com](https://www.kaggle.com/truchuynh87/wholesalecustomersdata) first.
 
 ### Prerequisites
-What things you need to install the software and how to install them
+What things you need to install the software and how to install them:
 - R CRAN Project: R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS
 - RStudio IDE: RStudio is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, as well as tools for plotting, history, debugging and workspace management. Click here to see more RStudio features. RStudio is available in open source and commercial editions and runs on the desktop (Windows, Mac, and Linux) or in a browser connected to RStudio Server or RStudio Server Pro (Debian/Ubuntu, Red Hat/CentOS, and SUSE Linux)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development enviroment running
-* [Install R](https://www.r-project.org/) - If you haven't downloaded and installed R, here's how to get started
-* [R Studio IDE](https://rstudio.com/products/rstudio/#:~:text=RStudio%20Take%20control%20of%20your%20R%20code%20RStudio,tools%20for%20plotting,%20history,%20debugging%20and%20workspace%20management.) - After that choose R Studio Desktop, and the free version (unless you have the Pro install). R free version is pretty good IDE
+A step by step series of examples that tell you how to get a development enviroment running:
+* [Install R](https://www.r-project.org/) - If you haven't downloaded and installed R, here's how to get started.
+* [R Studio IDE](https://rstudio.com/products/rstudio/#:~:text=RStudio%20Take%20control%20of%20your%20R%20code%20RStudio,tools%20for%20plotting,%20history,%20debugging%20and%20workspace%20management.) - After that choose R Studio Desktop, and the free version (unless you have the Pro install). R free version is pretty good IDE.
 
 
 ## Running the tests
 
 Explain how to run the automated tests for this system:
-- Start R Studio
-- Create new a project
+- Start R Studio.
+- Create new a project.
 - Copy the data and markdown file (.rmd) into the source file. For examaple:
 ```
 ~/salePredictionSystem/markdown.rmd
@@ -108,7 +108,7 @@ my README.md format was retrieved from
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
