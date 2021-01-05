@@ -1,5 +1,5 @@
 
-# Sale Prediction Models-Data Mining
+# Sale Inventory Prediction-Data Mining
 
 ## Introduction
 The sale prediction models implement various machine learning tools to classify the WholeSale data base and make prediction for future inventory
