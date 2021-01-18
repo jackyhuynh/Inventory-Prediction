@@ -1,3 +1,4 @@
+![img](https://github.com/jackyhuynh/Inventory_Prediction/blob/main/images/Forecast_Inventory_Levels.jpg)
 
 # Sale Inventory Prediction-Machine Learning
 
